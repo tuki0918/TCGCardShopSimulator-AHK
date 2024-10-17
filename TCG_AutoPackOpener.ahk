@@ -11,10 +11,7 @@
 ; ＊終了方法
 ; - ESC キーを押す
 
-Esc:: {
-    MsgBox "自動処理を停止します"
-    ExitApp
-}
+Esc::ExitApp
 
 MsgBox "自動処理を開始します（5秒後）"
 Sleep(5000)
